@@ -1,0 +1,50 @@
+.todolist-container{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.todo-item{
+    margin-bottom: 30px;
+    border-bottom: 1px dotted;
+    background: #152431;
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.todolist-container .todo-item .todo{
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8FA8C1;
+
+}
+.todolist-container .todo-item .todo-strike{
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8FA8C1;
+    text-decoration: line-through;
+}
+
+
+.edit-delete-section{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.delete-img{
+    filter: invert(1);
+}
+.editing-popup{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
